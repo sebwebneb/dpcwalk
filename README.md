@@ -10,4 +10,4 @@ This PoC was extracted from a larger heuristic anti-cheat framework I am develop
 
 > This is not production-ready, it was one of the first things I worked on and left therefore having low security and little fail-safes.
 
-> This will only catch code execution below DISPATCH_LEVEL making it easier to hide from than an NMI, but it is fine as every driver has to drop below that eventually and since we fire at such rapid rates, we eventually catch them or force brief exectutions. Both are downsides for the provider.
+> This will only catch code execution below DISPATCH_LEVEL making it easier to hide from than an NMI, but it is fine as every driver has to drop below that eventually and since we fire at such rapid rates, we eventually catch them or force brief executions. Both are downsides for the provider.
